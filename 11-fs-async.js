@@ -1,7 +1,7 @@
 const { readFile, writeFile } = require('fs');
 
 console.log('Start');
-const first = readFile('./content/first.txt', 'utf-8', (err, result) => {
+readFile('./content/first.txt', 'utf-8', (err, result) => {
     if (err) {
         console.log(err);
         return;
