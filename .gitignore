@@ -1,5 +1,1 @@
-content/result-text.txt
-content/result-async.txt
-content/result-async-await.txt
-content/big.txt
-/node_modules
+*/node_modules
