@@ -1,5 +1,4 @@
 const { readFile } = require('fs');
-const { result } = require('lodash');
 const path = require('path');
 
 const filePath = path.resolve(__dirname, '..', 'content', 'first.txt');
